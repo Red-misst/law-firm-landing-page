@@ -48,7 +48,7 @@ flowchart LR
     C --> E
     D --> E
     E --> F[Form Submission]
-    F --> G[Thank You Message]
+    F --> G[Thank You Message] 
 ```
 
 ## Technical Stack
