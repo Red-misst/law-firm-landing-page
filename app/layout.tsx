@@ -18,7 +18,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "Law Firm | Excellence in Legal Practice",
+  title: "Rutto & Patners Advocates",
   description: "Dedicated legal representation with integrity and professionalism",
 };
 
