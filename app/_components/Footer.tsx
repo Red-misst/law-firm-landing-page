@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Firm Info */}
           <div>
             <h3 className="text-xl font-semibold mb-4">
-              Rutto & Patners Advocates
+            Ngeno, Ondieki & Co. Advocates
             </h3>
             <p className="text-gray-300 mb-4">
               Professional legal services with integrity, dedication, and
@@ -140,7 +140,7 @@ const Footer = () => {
                   href="tel:+254722886287"
                   className="text-white hover:underline"
                 >
-                  (254) 7228-86287
+                  (254) 717-174651
                 </a>
                
            
@@ -148,10 +148,10 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
                 <FaEnvelope className="text-gray-300" />
                 <a
-                  href="mailto:contact@lawfirmname.com"
+                  href="mailto:ngenoondiekiandco@gmail.com"
                   className="text-white hover:underline"
                 >
-                  ruttopatnerslaw@gmail.com
+             ngenoondiekiandco@gmail.com
                 </a>
               </div>
             </address>
@@ -162,7 +162,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm mb-4 md:mb-0">
-            © {new Date().getFullYear()} Rutto & Patners Advocates. All rights
+            © {new Date().getFullYear()} Ngeno, Ondieki & Co. Advocates. All rights
             reserved.
           </p>
           <div className="flex space-x-6 text-sm text-gray-300">

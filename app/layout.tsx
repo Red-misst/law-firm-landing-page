@@ -18,7 +18,7 @@ const libreBaskerville = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "Rutto & Patners Advocates",
+  title: "Ngeno, Ondieki & Co. Advocates",
   description: "Dedicated legal representation with integrity and professionalism",
 };
 

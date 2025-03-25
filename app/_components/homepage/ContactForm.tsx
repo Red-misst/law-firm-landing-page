@@ -25,22 +25,22 @@ export default function ContactForm() {
     <section id='contact' className="relative w-full py-16 md:py-24">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <Image 
-          src="https://res.cloudinary.com/dcdivbkwd/image/upload/v1734343071/xau-usd%20blog/sjoghh2ht9h4oddykcbu.jpg" 
-          alt="Contact Background" 
-          fill 
+        <Image
+          src="https://res.cloudinary.com/dcdivbkwd/image/upload/v1734343071/xau-usd%20blog/sjoghh2ht9h4oddykcbu.jpg"
+          alt="Contact Background"
+          fill
           className="object-cover"
           priority
         />
         <div className="absolute inset-0 bg-gray-900/70" />
       </div>
-      
+
       {/* Content Container */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="hidden md:flex items-center justify-center">
           {/* Empty space on the left for large screens */}
         </div>
-        
+
         <div className="bg-gray-800/40 backdrop-blur-sm p-8 md:p-10 rounded-lg shadow-xl border border-gray-500/30">
           <div className="text-center mb-10">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Contact Us</h2>
@@ -60,10 +60,10 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-medium text-sm text-gray-300">Email</p>
-                  <a href="mailto:contact@lawfirmname.com" className="text-white hover:underline">ruttopatnerslaw@gmail.com</a>
+                  <a href="mailto:contact@lawfirmname.com" className="text-white hover:underline">ngenoondiekiandco@gmail.com</a>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="text-gray-300 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -72,12 +72,12 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="font-medium text-sm text-gray-300">Phone</p>
-                  <a href="tel:+254722886287" className="text-white hover:underline">(254) 7228-86287</a>
-                  <br/>
-                  <a href="tel:+254728766890" className="text-white hover:underline mt-3">(254) 7287-66890</a>
+                  <a href="tel:+254722886287" className="text-white hover:underline">    (254) 717-174651</a>
+                  <br />
+                  <a href="tel:+254728766890" className="text-white hover:underline mt-3">(254) 737-007010</a>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="text-gray-300 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -87,13 +87,11 @@ export default function ContactForm() {
                 <div>
                   <p className="font-medium text-sm text-gray-300">Address</p>
                   <address className="not-italic">
-                    Kiren Arcade<br />
-                    3rd floor, room 25<br />
-                   Ronald Ngala Street, Eldoret
+                    Barngetuny Plaza<br /> 2nd Flr, Rm 20<br />Ronald Ngala St
                   </address>
                 </div>
               </div>
-              
+
               <div className="flex items-start space-x-4">
                 <div className="text-gray-300 mt-1">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
@@ -106,7 +104,7 @@ export default function ContactForm() {
                 </div>
               </div>
             </div>
-            
+
             <div>
               {submitted ? (
                 <div className="text-center py-8">
@@ -132,7 +130,7 @@ export default function ContactForm() {
                       placeholder="name@gmail.com"
                     />
                   </div>
-                  
+
                   <div>
                     <label htmlFor="phone" className="block text-sm font-medium text-white mb-1">
                       Phone Number
@@ -147,7 +145,7 @@ export default function ContactForm() {
                       placeholder="(254) 7123-456789"
                     />
                   </div>
-                  
+
                   <button
                     type="submit"
                     className="w-full bg-gray-700 hover:bg-gray-800 text-white font-medium py-3 px-6 rounded-md transition duration-300 shadow-md"

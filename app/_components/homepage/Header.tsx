@@ -27,7 +27,7 @@ function Header() {
                 {/* Logo/Company name */}
                 <div className="text-white font-bold text-xl sm:text-2xl">
                   <Link href="/" className="flex items-center">
-                    <span className="text-white hover:text-gray-300 transition-colors">RUTTO & PATNERS</span>
+                    <span className="text-white hover:text-gray-300 transition-colors">Ngeno, Ondieki & Co. Advocates</span>
                   </Link>
                 </div>
 
@@ -37,7 +37,7 @@ function Header() {
                     onClick={toggleMenu}
                     aria-label="Toggle menu"
                 >
-                    {isMenuOpen ? (
+                    {isMenuOpen ? ( 
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                         </svg>
